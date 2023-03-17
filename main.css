@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    margin:0;
+}
+
+.main-content{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    width:1280px;
+    height:720px;
+    background-color:red;
+    margin-left:calc(50% - 640px);
+
+}
+
+.column{
+    width:263px;
+    height:502px;
+    background-color: yellow;
+    
+}
+
+.image-container{
+    position: relative;
+}
+
+.number{
+    margin:0;
+    width:64px;
+    height: 64px;
+    background-color: white;
+    border-radius:50%;
+    border:#51C3CD 5px solid;
+    position:absolute;
+    top:0px;
+    left:1px;
+    
+}
+
+.icon{
+    width:230px;
+    height: 230px;
+    margin-top:32px;
+    margin-left:33px;
+    background-color: #51C3CD;   
+}
