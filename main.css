@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-content{
@@ -26,8 +26,8 @@ body{
 
 .number{
     margin:0;
-    width:64px;
-    height: 64px;
+    width:55px;
+    height: 55px;
     background-color: white;
     border-radius:50%;
     border:#51C3CD 5px solid;
@@ -39,7 +39,7 @@ body{
     align-items: center;
    
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 
@@ -52,8 +52,13 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-
 }
+/* Kintamu spalvu aprasymas
+    one two free four- keicia skaiciuko krastines ir teksto splava
+    .'x'-home kvadratas ireminantis icona
+    .rocket, .head...iconos-dydis
+*/
+
 
 .one{
     border-color:#51C3CD;
@@ -91,25 +96,37 @@ body{
     background-color: #919191;
 }
 
-.head{
-    width: 70%;
+.rocket{
+     width:79%;
 }
 
-.rocket{
-     width:80%;
+.head{
+    width: 80%;
 }
 
 .people{
-    width:60%;
+    width:65%;
 }
 
 .arrow{
-    width:80%;
+    width:65%;
 }
+
+/* kintama baiges */
 
 .title{
     text-align: center;
     text-transform: uppercase;
-    font-size: 25px;
-    font-weight:bold;
+    font-size: 29px;
+    font-weight:500;
+    margin-left:33px;
+    margin-top:45px;
+    color:#F34D33;
+}
+
+.info{
+    margin-left:33px;
+    font-size:16px;
+    font-weight:300;
+    line-height: 1.6;
 }
